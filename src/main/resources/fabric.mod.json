@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "durag",
+  "version": "${version}",
+  "name": "Durag",
+  "description": "Dodaje durag oraz Damiana – NPC z duragiem.",
+  "authors": [
+    "Ty"
+  ],
+  "license": "MIT",
+  "icon": "assets/durag/textures/item/durag.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.durag.DuragMod"
+    ],
+    "client": [
+      "com.example.durag.DuragClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

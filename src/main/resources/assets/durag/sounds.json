@@ -1,0 +1,20 @@
+{
+  "damian.phone": {
+    "sounds": [
+      "durag:damian_phone"
+    ]
+  },
+  "damian.chase": {
+    "sounds": [
+      "durag:damian_chase"
+    ]
+  },
+  "kamehameha": {
+    "sounds": [
+      {
+        "name": "durag:kamehameha",
+        "stream": true
+      }
+    ]
+  }
+}
